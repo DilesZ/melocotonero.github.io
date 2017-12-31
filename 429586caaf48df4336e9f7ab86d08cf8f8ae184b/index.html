@@ -54,7 +54,39 @@
 
 	<!-- jQuery -->
 	<script src="dist/scripts.min.js"></script>
-	   	</head>
+	
+<style type="text/css">
+    body {
+        background: #000;
+        background-image: url('http://i.imgur.com/3ypbqH9.png'), url('http://i.imgur.com/L9Aq6n9.png'), url('http://i.imgur.com/PcmF2sU.png');
+        -webkit-animation: snow 20s linear infinite;
+        -moz-animation: snow 20s linear infinite;
+        -ms-animation: snow 20s linear infinite;
+        animation: snow 20s linear infinite;   
+        }
+        /*Keyframes*/
+        @keyframes snow {  
+        0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+         100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+        }
+      
+        @-moz-keyframes snow {
+        0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+        100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+        }
+      
+        @-webkit-keyframes snow {
+        0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+         50% {background-color:#b4cfe0;}
+         100% {background-position: 500px 1000px, 400px 400px, 300px 300px; background-color:#6b92b9;}
+        }
+      
+        @-ms-keyframes snow {
+        0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+         100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+        }
+    </style>	   
+	   </head>
 	<body>
 	
 
