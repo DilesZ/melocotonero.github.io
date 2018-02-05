@@ -596,7 +596,8 @@ figure {
   margin-top: 100%;
   color: #be8bf5;
 }
-#fh5co-couple .amp-center:hover {
+#fh5co-couple .icon-heart:hover {
+	 background-image: url("images/corazon2.jpg");
 	
 }
 @media screen and (max-width: 768px) {
