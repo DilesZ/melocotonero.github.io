@@ -606,6 +606,7 @@ figure {
 }
 #fh5co-couple i.icon-heart:hover {
 	display: none;
+	color:white;
 	
 }
 @media screen and (max-width: 768px) {
