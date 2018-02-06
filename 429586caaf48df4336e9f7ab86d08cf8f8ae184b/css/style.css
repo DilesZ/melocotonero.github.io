@@ -603,7 +603,7 @@ figure {
     background-position-x: -2px;
     background-repeat: no-repeat;
     width: 110px;
-	color: white;
+	color: transparent;
 }
 #fh5co-couple i.icon-heart:hover {
     color: transparent;
