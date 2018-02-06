@@ -597,11 +597,12 @@ figure {
   color: #be8bf5;
 }
 #fh5co-couple .amp-center:hover {
-	background-image: url("images/corazon2.jpg");
-background-position-y: -20px;
-height: 200px;
-background-position-x: 3px;
-background-repeat: no-repeat;
+	    background-image: url("images/corazon2.jpg");
+    background-position-y: 60px;
+    height: 200px;
+    background-position-x: -3px;
+    background-repeat: no-repeat;
+    width: 110px;
 }
 @media screen and (max-width: 768px) {
   #fh5co-couple .amp-center {
