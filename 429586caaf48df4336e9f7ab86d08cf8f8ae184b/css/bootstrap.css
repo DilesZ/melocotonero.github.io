@@ -2032,6 +2032,7 @@ pre code {
 @media screen and (max-width: 768px) {
  .col-xs-5 {
   width: 36.66667%;
+  margin-left: 20px;
 }
 }
 
