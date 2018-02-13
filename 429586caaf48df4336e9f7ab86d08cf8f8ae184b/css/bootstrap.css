@@ -2029,6 +2029,11 @@ pre code {
 .col-xs-5 {
   width: 41.66667%;
 }
+@media screen and (max-width: 768px) {
+ .col-xs-5 {
+  width: 36.66667%;
+}
+}
 
 .col-xs-6 {
   width: 50%;
